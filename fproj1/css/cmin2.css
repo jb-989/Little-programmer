@@ -1,0 +1,176 @@
+body {
+    background-color: #FFF8E4;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Alice', serif;
+    min-height: 100vh;
+    border: 10px solid;
+    border-color: #F2C6DE #C6DEF1 #DBCDF0 #C9E4DE;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+}
+
+.oval-nav-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.oval-navbar {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    border: 1px solid #DBCDF0;
+}
+.board {
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    width: 80%;
+    background-color: #dccbf3;
+    border-radius: 40px;
+    padding: 1rem 2rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    background-color: #f9c9d5;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .title {
+    color: #fcfaf3;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav a {
+    color: #f3f2ec;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .star-button {
+    background-color: #c6e4f2;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #666;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    shape-outside: polygon(); /* purely decorative, doesn't impact layout */
+  }
+  
+  .nav-button {
+    background-color: #F2C6DE;  /* light yellow */
+    color: #FFFFFF;                /* text color */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.oval-nav-link {
+    color: #9E72E0;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.main-content {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main-image-container {
+    width: 99%;
+    height: 90vh;
+    background-image: url('https://storage.googleapis.com/figment-image-store/orange-magician-w64r_743:445.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.goals-title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF6666;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxes-container {
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    z-index: 1;
+}
+
+.goal-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    height: 130px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid;
+    font-size: 14px;
+}
+
+.goal-box:nth-child(1) { border-color: #F2C6DE; color: #fc8bc9; }
+.goal-box:nth-child(2) { border-color: #C6DEF1; color: #79beef;}
+.goal-box:nth-child(3) { border-color: #DBCDF0; color: #c9a9f8; }
+.goal-box:nth-child(4) { border-color: #FFE8A3; color: #fee187; }
+
+.secondary-image {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25%;
+    max-width: 300px;
+    animation: float 3s ease-in-out infinite;
+    z-index: 1;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(-50%); }
+    50% { transform: translateY(-55%); }
+}

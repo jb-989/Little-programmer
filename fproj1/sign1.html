@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="sig.css" />
+    <style>
+      .clickable { cursor: pointer; transition: 0.3s ease; }
+      .clickable:hover { transform: scale(1.05); }
+      .selected { border: 2px solid #4CAF50; background-color: #e8f5e9; }
+      .box-2 input {
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 10px;
+        font-size: 16px;
+      }
+       
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+
+        document.querySelector(".next").onclick = () => location.href = "sign2.html";
+        document.querySelector(".log-in").onclick = () => location.href = "logn.html";
+        document.querySelector(".home").onclick = () => location.href = "home.html";
+        document.querySelector(".about-us").onclick = () => location.href = "about.html";
+
+        const gradeBoxes = document.querySelectorAll(".box-3, .box-4, .box-5, .box-6, .box-7, .box-8");
+        gradeBoxes.forEach(box => {
+          box.classList.add("clickable");
+          box.onclick = () => {
+            gradeBoxes.forEach(b => b.classList.remove("selected"));
+            box.classList.add("selected");
+          };
+        });
+
+
+        const yes = document.querySelector(".yes");
+        const no = document.querySelector(".no");
+        [yes, no].forEach(el => {
+          el.classList.add("clickable");
+          el.onclick = () => {
+            yes.classList.remove("selected");
+            no.classList.remove("selected");
+            el.classList.add("selected");
+          };
+        });
+
+        const box2 = document.querySelector(".box-2");
+        const input = document.createElement("input");
+        input.type = "tel";
+        input.placeholder = "Enter Mobile Number";
+        box2.innerHTML = "";
+        box2.appendChild(input);
+      });
+    </script>
+  </head>
+  <body>
+    <div class="sign-in-page">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="rectangle"></div>
+            <div class="div"></div>
+            <div class="rectangle-2"></div>
+            <div class="rectangle-3"></div>
+            <div class="cer">
+              <div class="overlap-2">
+                <div class="ellipse"></div>
+                <div class="ellipse-2"></div>
+              </div>
+            </div>
+            <div class="overlap-group-wrapper">
+              <div class="overlap-3">
+                <div class="ellipse-3"></div>
+                <div class="ellipse-4"></div>
+              </div>
+            </div>
+            <div class="rectangle-4"></div>
+            <div class="next">
+              <div class="next-wrapper"><div class="text-wrapper">Next</div></div>
+            </div>
+            <div class="div-wrapper">
+              <div class="overlap-4">
+                <div class="ellipse-5"></div>
+                <div class="ellipse-6"></div>
+              </div>
+            </div>
+            <div class="cer-2">
+              <div class="overlap-5">
+                <div class="ellipse-7"></div>
+                <div class="ellipse-8"></div>
+              </div>
+            </div>
+            <div class="text-wrapper-2">&lt; / &gt;</div>
+            <div class="flex">
+              <div class="overlap-6">
+                <p class="flexible-scheduling">
+                  Flexible scheduling makes it easy to fit into your family's routine, and every student earns a
+                  recognized certification.
+                </p>
+                <img class="dashicons-games" src="img/dashicons-games.svg" />
+              </div>
+              <div class="rectangle-5"></div>
+            </div>
+            <div class="give">
+              <div class="group">
+                <p class="p">
+                  Give your child a head start with expert-led coding lessons designed to spark creativity and build
+                  real-world skills.
+                </p>
+              </div>
+              <div class="rectangle-5"></div>
+            </div>
+            <div class="text-wrapper-3">&lt; / &gt;</div>
+            <img class="emojione-rocket" src="img/emojione-rocket.svg" />
+            <div class="game"></div>
+            <img class="solar-star-angle" src="img/solar-star-angle-bold-duotone.svg" />
+            <div class="element">
+              <div class="rectangle-6"></div>
+              <div class="rectangle-7"></div>
+              <div class="rectangle-8"></div>
+              <div class="rectangle-9"></div>
+            </div>
+            <div class="box">
+              <img class="arrow" src="img/arrow-1.svg" />
+              <div class="twemoji-flag-saudi">
+                <div class="group-wrapper"><img class="img" src="img/group.png" /></div>
+                <div class="text-wrapper-4">+966</div>
+              </div>
+            </div>
+            <div class="box-2"></div>
+            <div class="text-wrapper-6">Country Code</div>
+            <div class="text-wrapper-7">Mobile Number</div>
+            <div class="text-wrapper-8">Select Child’s Grade</div>
+            <div class="text-wrapper-9">Elementary school</div>
+            <div class="box-3">
+              <div class="overlap-8">
+                <div class="text-wrapper-10">Grade</div>
+                <div class="text-wrapper-11">4</div>
+              </div>
+            </div>
+            <div class="box-4">
+              <div class="overlap-8">
+                <div class="text-wrapper-10">Grade</div>
+                <div class="text-wrapper-11">5</div>
+              </div>
+            </div>
+            <div class="text-wrapper-12">Middle school</div>
+            <div class="box-5">
+              <div class="overlap-8">
+                <div class="text-wrapper-10">Grade</div>
+                <div class="text-wrapper-11">7</div>
+              </div>
+            </div>
+            <div class="box-6">
+              <div class="overlap-8">
+                <div class="text-wrapper-10">Grade</div>
+                <div class="text-wrapper-11">8</div>
+              </div>
+            </div>
+            <div class="box-7">
+              <div class="overlap-8">
+                <div class="text-wrapper-10">Grade</div>
+                <div class="text-wrapper-11">9</div>
+              </div>
+            </div>
+            <div class="box-8">
+              <div class="overlap-8">
+                <div class="text-wrapper-10">Grade</div>
+                <div class="text-wrapper-11">6</div>
+              </div>
+            </div>
+  
+              <div class="sign-in-regisrariton">Sign In & Regisrariton</div>
+             <p style="color:#ffda79; font-size:18px; font-weight:bold; margin: 20px 0;">Do you have a Laptop or Desktop?</p>
+          <div class="yes">
+            <div class="rectangle-10"></div>
+          <div class="text-wrapper-13">Yes</div>
+             </div>
+          <div class="no">
+             <div class="rectangle-10"></div>
+          <div class="text-wrapper-13">No</div>
+             </div>
+
+            <p class="text-wrapper-14">Prepare Your Child for a Tech-Driven Future</p>
+            <p class="fun-educational">Fun & Educational Coding Classes for Ages 9–15</p>
+            <p class="empower-your-child">
+              Empower your child to become a tech superhero       enroll today!
+            </p>
+          </div>
+          <div class="overlap-9">
+            <div class="log-in">
+              <div class="overlap-group-2"><div class="text-wrapper-16">LOG IN</div></div>
+            </div>
+            <div class="about-us">
+              <div class="programs">
+                <div class="ellipse-9"></div>
+                <div class="programs-2">About Us</div>
+              </div>
+            </div>
+            <div class="home">
+              <div class="programs">
+                <div class="ellipse-9"></div>
+                <div class="programs-2">Home</div>
+              </div>
+            </div>
+            <div class="littile-programmer">
+              <div class="icon">
+                <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="49" height="49" rx="10" fill="#F2C6DE"/>
+                <path d="M23.4793 12.2499C14.3367 12.2499 9.76341 12.2499 6.92345 14.6428C4.0835 17.0356 4.0835 20.8841 4.0835 28.5833C4.0835 36.2824 4.0835 40.133 6.92345 42.5237C9.76341 44.9145 14.3347 44.9166 23.4793 44.9166C32.6219 44.9166 37.1952 44.9166 40.0352 42.5237C42.8752 40.1309 42.8752 36.2824 42.8752 28.5833C42.8752 26.1945 42.8752 24.1773 42.7915 22.4583M37.771 4.08325L38.2977 5.50629C38.9878 7.37238 39.3329 8.30542 40.0127 8.98529C40.6947 9.66721 41.6277 10.0123 43.4938 10.7023L44.9168 11.2291L43.4938 11.7558C41.6277 12.4459 40.6947 12.791 40.0148 13.4708C39.3329 14.1528 38.9878 15.0858 38.2977 16.9519L37.771 18.3749L37.2442 16.9519C36.5542 15.0858 36.2091 14.1528 35.5292 13.4729C34.8473 12.791 33.9143 12.4459 32.0482 11.7558L30.6252 11.2291L32.0482 10.7023C33.9143 10.0123 34.8473 9.66721 35.5272 8.98733C36.2091 8.30542 36.5542 7.37238 37.2442 5.50629L37.771 4.08325Z" stroke="#FFF8E4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M31.6462 24.4999L34.1513 26.658C35.2027 27.5665 35.7295 28.0198 35.7295 28.5833C35.7295 29.1468 35.2027 29.6 34.1513 30.5085L31.6462 32.6666M15.3128 24.4999L12.8077 26.658C11.7562 27.5665 11.2295 28.0198 11.2295 28.5833C11.2295 29.1468 11.7562 29.6 12.8077 30.5085L15.3128 32.6666M25.5212 22.4583L21.4378 34.7083" stroke="#FFF8E4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="text-wrapper-17">Little programmer</div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

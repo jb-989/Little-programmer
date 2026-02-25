@@ -1,0 +1,539 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+
+.log-in-page {
+  background-color: #ffecb5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.log-in-page .cer {
+  position: absolute;
+  width: 279px;
+  height: 257px;
+  top: 649px;
+  left: 620px;
+  border-radius: 139.36px / 128.5px;
+  border: 5px solid;
+  border-color: #feacd9;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .overlap-group {
+  position: relative;
+  width: 224px;
+  height: 206px;
+  top: 26px;
+  left: 26px;
+  border-radius: 112.02px / 103.02px;
+  border: 5px solid;
+  border-color: #3ea9ff;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .ellipse {
+  position: absolute;
+  width: 172px;
+  height: 159px;
+  top: 18px;
+  left: 22px;
+  border-radius: 85.79px / 79.42px;
+  border: 5px solid;
+  border-color: #ac78faad;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .div {
+  position: absolute;
+  width: 125px;
+  height: 116px;
+  top: 38px;
+  left: 45px;
+  border-radius: 62.56px / 58.07px;
+  border: 5px solid;
+  border-color: #93d7c8;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .overlap-group-wrapper {
+  position: absolute;
+  width: 137px;
+  height: 126px;
+  top: 294px;
+  left: 1355px;
+  border-radius: 68.33px / 63px;
+  border: 5px solid;
+  border-color: #feacd9;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .overlap-2 {
+  position: relative;
+  width: 110px;
+  height: 101px;
+  top: 13px;
+  left: 13px;
+  border-radius: 54.92px / 50.51px;
+  border: 5px solid;
+  border-color: #3ea9ff;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .ellipse-2 {
+  position: absolute;
+  width: 84px;
+  height: 78px;
+  top: 6px;
+  left: 8px;
+  border-radius: 42.06px / 38.94px;
+  border: 5px solid;
+  border-color: #ac78faad;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .ellipse-3 {
+  position: absolute;
+  width: 61px;
+  height: 57px;
+  top: 16px;
+  left: 20px;
+  border-radius: 30.67px / 28.47px;
+  border: 5px solid;
+  border-color: #93d7c8;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .rectangle-2 {
+  position: absolute;
+  width: 729px;
+  height: 676px;
+  top: 279px;
+  left: 716px;
+  background-color: #fefbf3;
+  border-radius: 10px;
+  box-shadow: inset 0px 4px 4px #00000040;
+}
+
+.log-in-page .home {
+  position: absolute;
+  width: 100px;
+  height: 11px;
+  top: 84px;
+  left: 1124px;
+}
+
+.log-in-page .programs {
+  position: relative;
+  width: 119px;
+  height: 14px;
+  top: -3px;
+  left: 3px;
+}
+
+.log-in-page .ellipse-4 {
+  position: absolute;
+  width: 6px;
+  height: 5px;
+  top: 9px;
+  left: 0;
+  background-color: #ffda79;
+  border-radius: 3px / 2.5px;
+}
+
+.log-in-page .text-wrapper {
+  position: absolute;
+  width: 100px;
+  top: -2px;
+  left: 18px;
+  -webkit-text-stroke: 1px #ffda79;
+  font-family: "Alice-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .littile-programmer {
+  position: absolute;
+  width: 242px;
+  height: 49px;
+  top: 72px;
+  left: 122px;
+}
+
+.log-in-page .hugeicons-ai {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 0;
+  left: 0;
+}
+
+.log-in-page .text-wrapper-2 {
+  position: absolute;
+  width: 180px;
+  top: 10px;
+  left: 59px;
+  -webkit-text-stroke: 1px #ffda79;
+  font-family: "Alice-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .box {
+  position: absolute;
+  width: 464px;
+  height: 48px;
+  top: 450px;
+  left: 766px;
+}
+
+.log-in-page .div-wrapper {
+  position: relative;
+  width: 462px;
+  height: 48px;
+  background-color: #fff7e4;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #f2c6de;
+}
+
+.log-in-page .text-wrapper-3 {
+  position: absolute;
+  width: 147px;
+  top: 16px;
+  left: 8px;
+  font-family: "Alfa Slab One-Regular", Helvetica;
+  font-weight: 400;
+  color: #d9d9d9;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .text-wrapper-4 {
+  position: absolute;
+  width: 408px;
+  top: 322px;
+  left: 765px;
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: "Alfa Slab One-Regular", Helvetica;
+  font-weight: 400;
+  color: #f2c6de;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.log-in-page .text-wrapper-5 {
+  position: absolute;
+  width: 147px;
+  top: 423px;
+  left: 766px;
+  font-family: "Alfa Slab One-Regular", Helvetica;
+  font-weight: 400;
+  color: #f2c6de;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .sign-in {
+  position: absolute;
+  width: 114px;
+  height: 46px;
+  top: 72px;
+  left: 1224px;
+}
+
+.log-in-page .overlap-3 {
+  position: relative;
+  width: 112px;
+  height: 46px;
+  background-color: #f2c6de;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .text-wrapper-6 {
+  position: absolute;
+  width: 77px;
+  top: 11px;
+  left: 22px;
+  -webkit-text-stroke: 1px #ffda79;
+  font-family: "Alice-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .text-wrapper-7 {
+  position: absolute;
+  top: 549px;
+  left: 798px;
+  font-family: "Alfa Slab One-Regular", Helvetica;
+  font-weight: 400;
+  color: #f2c6de;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.log-in-page .box-2 {
+  position: absolute;
+  width: 173px;
+  height: 48px;
+  top: 578px;
+  left: 766px;
+}
+
+.log-in-page .overlap-4 {
+  position: relative;
+  width: 171px;
+  height: 48px;
+  background-color: #fff7e4;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #f2c6de;
+}
+
+.log-in-page .text-wrapper-8 {
+  position: absolute;
+  width: 153px;
+  top: 16px;
+  left: 1px;
+  font-family: "Alfa Slab One-Regular", Helvetica;
+  font-weight: 400;
+  color: #d9d9d9;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .LI {
+  position: absolute;
+  width: 264px;
+  height: 56px;
+  top: 691px;
+  left: 949px;
+}
+
+.log-in-page .overlap-5 {
+  position: relative;
+  width: 262px;
+  height: 56px;
+  background-color: #f2c6de;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .text-wrapper-9 {
+  position: absolute;
+  width: 175px;
+  top: 7px;
+  left: 42px;
+  -webkit-text-stroke: 1px #ffda79;
+  font-family: "Alice-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .subscription {
+  position: absolute;
+  width: 162px;
+  height: 46px;
+  top: 873px;
+  left: 762px;
+}
+
+.log-in-page .overlap-group-2 {
+  position: relative;
+  width: 160px;
+  height: 46px;
+  background-color: #f2c6de;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .text-wrapper-10 {
+  position: absolute;
+  width: 122px;
+  top: 11px;
+  left: 21px;
+  -webkit-text-stroke: 1px #ffda79;
+  font-family: "Alice-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .vector {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 24px;
+  left: 130px;
+}
+
+.log-in-page .img {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 11px;
+  left: 122px;
+}
+
+.log-in-page .p {
+  position: absolute;
+  width: 475px;
+  top: 888px;
+  left: 937px;
+  font-family: "Alfa Slab One-Regular", Helvetica;
+  font-weight: 400;
+  color: #f2c6de;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.log-in-page .frame {
+  position: absolute;
+  width: 1521px;
+  height: 1286px;
+  top: 0;
+  left: 0;
+}
+
+.log-in-page .overlap-6 {
+  position: relative;
+  width: 1519px;
+  height: 982px;
+}
+
+.log-in-page .overlap-7 {
+  position: absolute;
+  width: 1519px;
+  height: 982px;
+  top: 0;
+  left: 0;
+}
+
+.log-in-page .rectangle-3 {
+  position: absolute;
+  width: 1512px;
+  height: 12px;
+  top: 0;
+  left: 7px;
+  background-color: #f2c6de;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .rectangle-4 {
+  position: absolute;
+  width: 1512px;
+  height: 12px;
+  top: 970px;
+  left: 0;
+  background-color: #dbcdf0;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .rectangle-5 {
+  position: absolute;
+  width: 13px;
+  height: 982px;
+  top: 0;
+  left: 1499px;
+  background-color: #c6def1;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .rectangle-6 {
+  position: absolute;
+  width: 13px;
+  height: 982px;
+  top: 0;
+  left: 0;
+  background-color: #c9e4de;
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.log-in-page .subscription-2 {
+  position: absolute;
+  width: 162px;
+  height: 46px;
+  top: 811px;
+  left: 762px;
+}
+
+.log-in-page .text-wrapper-11 {
+  position: absolute;
+  width: 122px;
+  top: 11px;
+  left: 18px;
+  -webkit-text-stroke: 1px #ffda79;
+  font-family: "Alice-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.log-in-page .text-wrapper-12 {
+  position: absolute;
+  width: 475px;
+  top: 827px;
+  left: 937px;
+  font-family: "Alfa Slab One-Regular", Helvetica;
+  font-weight: 400;
+  color: #f2c6de;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
